@@ -1,0 +1,175 @@
+body { 
+	margin:10px auto;
+	max-width:100%;
+	max-height: auto;
+	line-height:1.6;
+	font-size:15px;
+	padding:0 10px 0 10px;
+	font-style: arial;
+	}
+
+a {
+	text-decoration: none;
+}
+
+
+div {
+	padding: 5px;
+}
+
+
+#nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#nav a {
+	color: #5f6368;
+}
+
+#nav img {
+	height: 20px;
+}
+
+#applications {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+#applications #texte-info {
+  visibility: hidden;
+  width: 120px;
+  background-color: #f2f2f2;
+  color: #5f6368;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+ 
+}
+
+#applications:hover #texte-info {
+  visibility: visible;
+}
+
+#connexion { 
+	background-color: #4486f6;
+	border-radius: 5px;
+	margin: 0 5px 0 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#connexion a {
+	color: #ffffff;
+}
+
+#central {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#logo-google {
+	display: flex;
+	justify-content: center;
+}
+
+#moteur {
+	display: flex;
+	justify-content: space-between;
+	border : solid 0.5px #5f6368;
+	border-radius: 40px;
+	width: 50%;
+	height: 10%;
+	margin: 2% auto 0 auto;
+}
+
+#moteur:hover {
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#moteur img {
+	height: 20px;
+}
+
+
+#boutons {
+	display: flex;
+	justify-content: center; 
+	margin: 2% auto 0 auto;
+}
+
+
+#boutons a {
+	color: #5f6368; 
+}
+
+
+#rechercher { 
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+#chance { 
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+#corona {
+	display: flex;
+	justify-content: center;
+	margin: 2% auto 0 auto;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+}
+
+#main img {
+	width: 40%;
+}
+
+footer {
+	background-color: #f2f2f2;
+	color: #5f6368;
+	position: absolute;
+	bottom: 1px;
+	width: 100%;
+}
+
+footer a {
+	color: #5f6368;
+}
+
+#france {
+	border-top: solid 1px #5f6368;
+}
+
+#nav2 {
+	border-top: solid 1px #5f6368;
+}
+
+.row{
+	display: inline-flex;
+	width: 100%;
+}
+
+.col {
+	flex: 1;
+}
+
+#presentation {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#legal {
+	display: flex;
+	justify-content: flex-end;
+}
